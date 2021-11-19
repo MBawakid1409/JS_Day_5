@@ -17,6 +17,8 @@ const comapreNums = (num1, num2) => {
 console.log(comapreNums(5,5));
 console.log(comapreNums(5,7));
 
+console.log("###################################################")
+
 const stringFunc = stringOne => {
     if (stringOne === 'JavaScript') {
         return 'Welcome'
@@ -26,6 +28,8 @@ const stringFunc = stringOne => {
 }
 console.log(stringFunc('JavaScript'))
 console.log(stringFunc('Swift'))
+
+console.log("###################################################")
 
 const greatestNum = (num1, num2) => {
     if (num1 > num2) {
@@ -37,6 +41,8 @@ const greatestNum = (num1, num2) => {
     }
 }
 console.log(greatestNum(40, 40))
+
+console.log("###################################################")
 
 const hombaGomba = stringBing => {
     if (stringBing === 'JavaScript') {
@@ -51,6 +57,8 @@ const hombaGomba = stringBing => {
 }
 console.log(hombaGomba('Kotlin'))
 
+console.log("###################################################")
+
 const spFunc = myAge => {
     if (myAge >= 18) {
         return 'Welcome Mohammad'
@@ -60,7 +68,9 @@ const spFunc = myAge => {
         return 'enter your age'
     }
 }
-console.log(spFunc())
+console.log(spFunc(33))
+
+console.log("###################################################")
 
 const score = yourGrade => {
     if (yourGrade >= 70) {
@@ -76,6 +86,8 @@ const score = yourGrade => {
 console.log(score(60))
 console.log(score(80))
 console.log(score(40))
+
+console.log("###################################################")
 
 const calculator = (num1, num2, operator) => {
     if (operator === "-") {
